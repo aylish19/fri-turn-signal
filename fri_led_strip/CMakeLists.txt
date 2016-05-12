@@ -127,9 +127,6 @@ include_directories(
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
 # add_dependencies(fri_led_strip ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-add_executable(turn_monitor_test src/turn_monitor_test.cpp)
-target_link_libraries(turn_monitor_test  ${catkin_LIBRARIES})
-
 add_executable(turn_monitor src/turn_monitor.cpp)
 target_link_libraries(turn_monitor ${catkin_LIBRARIES})
 
