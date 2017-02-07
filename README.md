@@ -1,5 +1,6 @@
 # fri-turn-signal
 Created by Aylish Wrench (aylish19) and Annie Phan (annieeee)
+
 Final project code for CS378 - Autonomous Intelligent Robotics
 
 Code for implementing turns signals on the UT-Austin Builiding Wide Intelligence (BWI) segway bots. 
